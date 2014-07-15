@@ -1,0 +1,16 @@
+{
+  "name": "regard-highcharts",
+  "version": "0.0.0",
+  "description": "regard-highcharts =================",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/with-regard/regard-highcharts.git"
+  },
+  "author": "",
+  "license": "Apache v2",
+  "bugs": {
+    "url": "https://github.com/with-regard/regard-highcharts/issues"
+  },
+  "homepage": "https://github.com/with-regard/regard-highcharts"
+}
