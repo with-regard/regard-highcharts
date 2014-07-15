@@ -1,5 +1,5 @@
-module.exports = {
-  bar: function(data, xAxisLabel, yAxisLabel) {
+define(['regard-highcharts'], [], function() {
+  var bar = function(data, xAxisLabel, yAxisLabel) {
     return {
       chart: {
         type: 'column'
@@ -41,4 +41,10 @@ module.exports = {
       }]
     };
   }
-};
+
+  return {
+    default: {
+      bar: bar
+    }
+  };
+});
