@@ -13,7 +13,7 @@ define(['regard-highcharts'], [], function() {
         },
         labels: {
           rotation: -90
-        }
+        },
         categories: data.map(function(x) {
           return x.name;
         }),
