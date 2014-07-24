@@ -11,6 +11,9 @@ define(['regard-highcharts'], [], function() {
         title: {
           text: xAxisLabel
         },
+        labels: {
+          rotation: -90
+        }
         categories: data.map(function(x) {
           return x.name;
         }),
